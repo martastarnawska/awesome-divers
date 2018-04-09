@@ -61,20 +61,20 @@ h1 {
 }
 
 .first {
-  background-image: url("../images/shaun-low.jpg");
+  background-image: url("../images/mini/shaun-low.jpg");
 
 }
 .second {
-  background-image: url("../images/david.jpg");
+  background-image: url("../images/mini/david.jpg");
   background-position: 40% 50%;
 }
 .third {
-  background-image: url("../images/francisco.jpg");
+  background-image: url("../images/mini/francisco.jpg");
   background-position: 0% 50%;
 
 }
 .fourth {
-  background-image: url("../images/talia.jpg");
+  background-image: url("../images/mini/talia.jpg");
   background-position: 50%;
 }
 .slick-arrow {
@@ -87,6 +87,17 @@ h1 {
 }
 .slick-next {
   right: 30px;
+}
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 28px;
+  line-height: 1;
+
+  opacity: .75;
+  color: white;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .slick-arrow:hover {
   color: white;
@@ -213,14 +224,11 @@ h2 {
   .slide {
     height: 30vh;
   }
-  .slick-arrow {
-
-  }
   .slick-prev {
-    left: 15px;
+    left: 10px;
   }
   .slick-next {
-    right: 15px;
+    right: 10px;
   }
 
 
@@ -272,6 +280,17 @@ h2 {
 @media screen and (min-width: 551px){
   .hamburger {
     display: none;
+  }
+  .slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 40px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 }
 
